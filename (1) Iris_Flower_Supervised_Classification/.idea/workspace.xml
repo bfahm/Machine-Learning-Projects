@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f9bb575-4764-4a23-b41e-86836fccca59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/(1) Iris_Flower_Classification.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Iris_Flower_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Iris_Flower_Classification.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.idea/(1) Iris_Flower_Classification.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.idea/Iris_Flower_Classification.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/.ipynb_checkpoints/Iris_Flower_Classification-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/Iris_Flower_Classification.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/iris_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/visual1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/visual2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/visual3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/visual4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../(1) Iris_Flower_Classification/visual5.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="134" column="96" lean-forward="true" selection-start-line="134" selection-start-column="96" selection-end-line="134" selection-end-column="96" />
+            <state relative-caret-position="132">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -69,17 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="(1) Iris_Flower_Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="(1) Iris_Flower_Classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -130,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="(1) Iris_Flower_Classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="Iris_Flower_Classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,8 +237,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -284,8 +281,8 @@
     <entry file="file://$PROJECT_DIR$/../Iris_Flower_Classification/main.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="134" column="96" lean-forward="true" selection-start-line="134" selection-start-column="96" selection-end-line="134" selection-end-column="96" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
