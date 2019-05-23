@@ -111,17 +111,35 @@ def compare_models(X_train, Y_train):
         print(name, ": ", cv_score.mean())
 
 
-def logistic_model(X_train, X_test, Y_train, Y_test):
+def logistic_model(X_train, X_test, Y_train):
     classifier = LogisticRegression(solver='liblinear', multi_class='ovr')
     classifier.fit(X_train, Y_train)
     predictions = classifier.predict(X_test)
+    return classifier, predictions
 
+
+def print_model_specs(predictions, Y_test):
     print("Accuracy is: ", accuracy_score(Y_test, predictions))
     print("------------------------------------------------------------------")
     print(classification_report(Y_test, predictions))
 
 
+def test_on_custom_data(classifier):
+    print("Predicting on your own data.")
+    print("")
+    sp_length = float(input("Enter Sepal Length: "))
+    sp_width = float(input("Enter Sepal Width: "))
+    pt_length = float(input("Enter Petal Length: "))
+    pt_width = float(input("Enter Petal Width: "))
+
+    print("Predicted Class: ", classifier.predict([[sp_length, sp_width, pt_length, pt_width]]))
+
+
 # check_versions()
 X_train, X_test, Y_train, Y_test = split_data()
 compare_models(X_train, Y_train)
-logistic_model(X_train, X_test, Y_train, Y_test)
+
+classifier, predictions = logistic_model(X_train, X_test, Y_train)
+test_on_custom_data(classifier)
+print_model_specs(predictions, Y_test)
+
